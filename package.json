@@ -1,12 +1,17 @@
 {
-  "name": "domadvisor-ingest",
+  "name": "domadvisor-backend-mock",
   "version": "1.0.0",
-  "private": true,
-  "license": "MIT",
-  "engines": {
-    "node": ">=18"
+  "description": "DomAdvisor Mock Backend - Quick API for testing",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
-  }
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["domadvisor", "real-estate", "api", "mock"],
+  "author": "DomAdvisor",
+  "license": "MIT"
 }
